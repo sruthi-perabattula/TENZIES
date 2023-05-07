@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  border-radius: 10px;
+  background:#050509;
+  height: 760px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 450px;
+  padding: 50px;
+}
+*{
+  box-sizing: border-box;
+ 
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(231,22,230,0.8603816526610644) 0%, rgba(175,0,255,1) 100%);
+  padding: 30px;
+  font-family: 'Karla', sans-serif;
+ 
+}
+.main{
+  border-radius: 10px;
+  height: 700px;
+  width: 600px;
+  background-color: #F5F5F5;
+ 
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.die_container{
+  display: grid;
+  grid-template: auto auto/repeat(5,1fr);
+  gap: 30px;
+  
+}
+.die-face{
+  height: 60px;
+  width: 60px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+.die-num{
+  font-size: 2rem;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.title{
+  font-size: 60px;
+  font-family: 'Karla', sans-serif;
+}
+.instructions{
+  font-family: 'Karla', sans-serif;
+  font-size: 28px;
+  
+  
+}
